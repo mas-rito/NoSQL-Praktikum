@@ -1,0 +1,10 @@
+{
+  "name": "NoSQL Lab",
+  "image": "mcr.microsoft.com/devcontainers/universal:linux",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/redis:1": {},
+    "ghcr.io/devcontainers/features/mongodb:1": {}
+  },
+  "postCreateCommand": "pip install pymongo redis cassandra-driver neo4j"
+}
