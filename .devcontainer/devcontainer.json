@@ -1,10 +1,14 @@
 {
-  "name": "NoSQL Lab",
-  "image": "mcr.microsoft.com/devcontainers/universal:linux",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {},
-    "ghcr.io/devcontainers/features/redis:1": {},
-    "ghcr.io/devcontainers/features/mongodb:1": {}
-  },
-  "postCreateCommand": "pip install pymongo redis cassandra-driver neo4j"
+  "name": "NoSQL Comparison Lab",
+  "image": "mcr.microsoft.com/devcontainers/universal",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "forwardPorts": [27017, 6379],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mongodb.mongodb-vscode",
+        "cweijan.vscode-redis-client"
+      ]
+    }
+  }
 }
