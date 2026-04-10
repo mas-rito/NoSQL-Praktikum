@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "69d9531d425810af7120edc8",
+    "judul": "Panduan NoSQL untuk Pemula",
+    "isi": "NoSQL mencakup berbagai jenis database: document (MongoDB), key-value (Redis), column-family (Cassandra), dan graph (Neo4j).",
+    "penulis": "Eko",
+    "dibuat_pada": "2026-04-10T19:44:29.391906",
+    "view_count": 0
+  },
+  {
+    "_id": "69d9531c425810af7120edc7",
+    "judul": "Resep Nasi Goreng Spesial",
+    "isi": "Bahan: nasi putih, telur, kecap manis, bawang merah, bawang putih, cabai, dan garam. Tumis bumbu hingga harum sebelum masukkan nasi.",
+    "penulis": "Dewi",
+    "dibuat_pada": "2026-04-10T19:44:28.372739",
+    "view_count": 1
+  },
+  {
+    "_id": "69d9531c425810af7120edc6",
+    "judul": "Cara Setup GitHub Codespace",
+    "isi": "Buat file .devcontainer/devcontainer.json di root project. Tambahkan postCreateCommand untuk instalasi dependensi otomatis.",
+    "penulis": "Citra",
+    "dibuat_pada": "2026-04-10T19:44:28.372362",
+    "view_count": 2
+  },
+  {
+    "_id": "69d9531c425810af7120edc5",
+    "judul": "Perbedaan MongoDB vs Redis",
+    "isi": "MongoDB adalah document store yang cocok untuk data terstruktur permanen. Redis adalah in-memory store yang sangat cepat untuk cache dan session.",
+    "penulis": "Budi",
+    "dibuat_pada": "2026-04-10T19:44:28.371926",
+    "view_count": 3
+  },
+  {
+    "_id": "69d9531c425810af7120edc4",
+    "judul": "Tips Belajar Python",
+    "isi": "Belajar Python lebih mudah dengan latihan soal setiap hari. Gunakan project kecil untuk mempraktikkan konsep baru seperti list comprehension, decorator, dan generator.",
+    "penulis": "Andi",
+    "dibuat_pada": "2026-04-10T19:44:28.355013",
+    "view_count": 5
+  }
+]
